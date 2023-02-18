@@ -3,10 +3,12 @@
 #include <time.h>
 
 /**
- * main - Determines if a number is positive, negative or 0
+ * main - main function to generate a random number
  *
  * Return: Always 0 (Success)
+ *
  */
+
 int main(void)
 {
 	int n;
@@ -20,11 +22,11 @@ int main(void)
 	}
 	else if (n == 0)
 	{
-		printf("%d is zerro\n", n);
+		printf("%d is zero\n", n);
 	}
-	else
+	else if (n < 0)
 	{
-		printf("%d is negative\n', n);
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
